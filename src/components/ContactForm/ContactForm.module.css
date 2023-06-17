@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.label {
+  font-size: 20px;
+  letter-spacing: 0, 03em;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  margin-bottom: 16px;
+  padding-left: 12px;
+}
+.button {
+  border-radius: 4px;
+  width: 128px;
+  height: 28px;
+  text-align: center;
+  margin-left: 12px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(183, 183, 183);
+  cursor: pointer;
+}
+.input {
+  border: 1px solid rgb(183, 183, 183);
+}
